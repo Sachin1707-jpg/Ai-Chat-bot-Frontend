@@ -1,7 +1,7 @@
 // API Configuration
 const BACKEND_URL = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
     ? 'http://127.0.0.1:5000'
-    : 'https://gemini-chatbot-backend-prod.onrender.com'; // Replace this with your actual production backend URL after deployment
+    : 'https://ai-chat-bot-backend-3652.onrender.com/'; 
 
 // State Management
 let conversationHistory = [];
