@@ -120,6 +120,9 @@ def health():
         "api_configured": bool(api_key),
         "model": GEMINI_MODEL
     })
+@app.route("/")
+def home():
+    return "Backend is running successfully!"
 
 if __name__ == '__main__':
     port = int(os.getenv("PORT", 5000))
